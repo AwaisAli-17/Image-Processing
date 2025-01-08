@@ -27,7 +27,9 @@ const Header = () => {
           </label>
         </div>
       </div>
-      <div></div>
+      <div>
+        <img src={assets.header_img} alt="header-main-image" style={{ maxWidth: "25rem" }} />
+      </div>
     </div>
   );
 };
