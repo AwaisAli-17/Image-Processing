@@ -10,7 +10,7 @@ function Home() {
       <Header />
       <Steps />
       <Slider />
-      {/* <Testimonials /> */}
+      <Testimonials />
     </>
   );
 }
