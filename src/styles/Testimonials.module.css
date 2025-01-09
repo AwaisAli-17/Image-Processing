@@ -1,6 +1,7 @@
 .h1 {
   font-weight: bold;
   font-size: 3rem;
+  padding-top: 5rem;
   background-image: linear-gradient(to right, #353535, #9b9b9b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -9,13 +10,13 @@
 
 .testimonial_main_div {
   display: flex;
-  justify-content: center;
+  justify-self: center;
   margin: 4rem 2rem;
+  width: 75%;
 }
 
-.testimonia_parent_div {
-  display: flex;
-  background-color: black;
+.testimonial_parent_div {
+  background-color: rgb(211, 221, 223);
   margin: 1rem;
-  padding: 1rem;
+  padding: 3rem;
 }
