@@ -1,7 +1,6 @@
 .h1 {
   font-weight: bold;
   font-size: 3rem;
-  padding-top: 5rem;
   background-image: linear-gradient(to right, #353535, #9b9b9b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -21,7 +20,7 @@
 }
 
 .testimonial_parent_div {
-  background-color: rgb(211, 221, 223);
+  background-color: #ffffff;
   margin: 1rem;
   padding: 3rem;
 }
