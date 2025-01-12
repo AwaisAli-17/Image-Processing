@@ -1,6 +1,6 @@
 import React from "react";
 import TestimonialStyle from "../styles/Testimonials.module.css";
-import { assets, testimonialsData } from "../assets/assets";
+import { testimonialsData } from "../assets/assets";
 
 const Testimonials = () => {
   return (
@@ -9,11 +9,11 @@ const Testimonials = () => {
       <div className={TestimonialStyle.testimonial_main_div}>
         {testimonialsData.map((item, index) => (
           <div key={index} className={TestimonialStyle.testimonial_parent_div}>
-            <p>"</p>
-            <p>{item.text}</p>
-            <div>
-              <img src={item.image} alt="" />
-              <div>
+            <p className={TestimonialStyle.semicolon_text}>”</p>
+            <p className={TestimonialStyle.testimonial_text}>{item.text}</p>
+            <div className={TestimonialStyle.user_profile}>
+              <img src={item.image} alt="" className={TestimonialStyle.profile_image} />
+              <div className={TestimonialStyle.user_details}>
                 <p>{item.author}</p>
                 <p>{item.jobTitle}</p>
               </div>
