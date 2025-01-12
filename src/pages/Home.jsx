@@ -13,6 +13,7 @@ function Home() {
       <Slider />
       <Testimonials />
       <SeeMagic />
+
     </>
   );
 }
