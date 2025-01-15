@@ -1,0 +1,8 @@
+.navbarDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbarLogo {
+  min-width: 20%;
+}

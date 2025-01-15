@@ -1,0 +1,39 @@
+.h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  background-image: linear-gradient(to right, #353535, #9b9b9b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.steps_main_div {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 2rem;
+}
+
+.steps_parent_div {
+  display: flex;
+  background-color: #ffffff;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.steps_div {
+  max-width: 250px;
+  margin: 10px;
+}
+
+.steps_item_heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+}
+
+.steps_item_para {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7c7c7c;
+}

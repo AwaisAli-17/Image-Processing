@@ -1,0 +1,59 @@
+.h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  background-image: linear-gradient(to right, #353535, #9b9b9b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.semicolon_text {
+  font-size: 55px;
+  color: #62577b;
+}
+
+.testimonial_main_div {
+  display: flex;
+  justify-self: center;
+  margin: 4rem 2rem;
+  width: 75%;
+}
+
+.testimonial_parent_div {
+  background-color: #ffffff;
+  margin: 1rem;
+  padding: 3rem;
+}
+
+.profile_image {
+  width: 55px;
+  height: 56px;
+  border-radius: 40px;
+  margin: ;
+}
+
+.user_profile {
+  display: flex;
+}
+
+.user_details {
+  margin: 0px 20px;
+}
+
+.user_details p:nth-child(1) {
+  color: #4b445a;
+  font-size: 22px;
+}
+
+.user_details p:nth-child(2) {
+  color: #62577b;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.testimonial_text {
+  margin-bottom: 30px;
+  size: 18px;
+  color: #797484;
+  font-weight: 400;
+}
