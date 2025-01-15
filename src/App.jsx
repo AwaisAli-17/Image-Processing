@@ -6,6 +6,7 @@ import BuyCredit from "./pages/BuyCredit";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import AppStyles from "./styles/App.module.css";
+import { SignInButton } from "@clerk/clerk-react";
 
 const App = () => {
   return (
